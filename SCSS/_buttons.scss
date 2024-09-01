@@ -1,3 +1,27 @@
 .btn-navbar {
-    background-color: $color-primario;
+    display: flex;
+    align-items: center;
+    background-color: rgba(74, 202, 245, 0.053);
+    height: 100%;
+    width: 100%;
+    border-style: none;
+    transform: translate(45rem);
+    transition: all 2s;
+
+    img {
+        height: 3%;
+        width: auto;
+        transform: rotate(180deg);
+        transition: all 1s;
+    }
+
+    &:focus {
+        transform: translate(30rem);
+        transition: all 1s;
+
+        img {
+            transform: rotate(0deg);
+            transition: all 1s;
+        }
+    }
 }

@@ -1,1 +1,59 @@
+.btn-navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(74, 202, 245, 0.053);
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  transform: translate(45rem);
+  transition: all 2s;
+}
+.btn-navbar img {
+  height: 3%;
+  width: auto;
+  transform: rotate(180deg);
+  transition: all 1s;
+}
+.btn-navbar:focus {
+  transform: translate(30rem);
+  transition: all 1s;
+}
+.btn-navbar:focus img {
+  transform: rotate(0deg);
+  transition: all 1s;
+}
+
+header {
+  text-align: center;
+}
+
+.main-or-navbar {
+  display: flex;
+}
+
+.div-navbar {
+  display: flex;
+  position: fixed;
+  right: 0;
+  align-items: center;
+  height: 100%;
+  width: 50rem;
+  margin-right: 0%;
+  padding-right: 0%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  border-style: none;
+  margin-right: 7rem;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar ul li {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
