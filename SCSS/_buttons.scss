@@ -1,9 +1,23 @@
 .btn-navbar {
     background-image: url(../IMG/Otros/sup-madera1.jpg);
-    background-color: none;
     height: 100%;
     width: 20%;
     text-align: center;
+    border-style: none;
+
+    img {
+        height: 1rem;
+        width: auto;
+        margin: none;
+        padding: none;
+    }
+}
+
+.btn-sidebar {
+    background-image: url(../IMG/Otros/sup-madera1.jpg);
+    right: 0;
+    height: 100%;
+    width: 20%;
     border-style: none;
 
     img {

@@ -1,12 +1,25 @@
 .btn-navbar {
   background-image: url(../IMG/Otros/sup-madera1.jpg);
-  background-color: none;
   height: 100%;
   width: 20%;
   text-align: center;
   border-style: none;
 }
 .btn-navbar img {
+  height: 1rem;
+  width: auto;
+  margin: none;
+  padding: none;
+}
+
+.btn-sidebar {
+  background-image: url(../IMG/Otros/sup-madera1.jpg);
+  right: 0;
+  height: 100%;
+  width: 20%;
+  border-style: none;
+}
+.btn-sidebar img {
   height: 1rem;
   width: auto;
   margin: none;
@@ -24,7 +37,7 @@ header {
   background-image: url(/IMG/Otros/waves-2.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 10vh;
+  height: 12vh;
 }
 
 .main-or-navbar {
@@ -75,6 +88,31 @@ header {
   transition: all 1s;
 }
 .div-navbar:focus-within img {
+  transform: rotate(-90deg);
+  transition: all 1s;
+}
+
+.div-sidebar {
+  background-image: url(../IMG/Otros/sup-madera1.jpg);
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  left: 0;
+  align-items: center;
+  height: 100%;
+  width: 15rem;
+  transform: translate(-12rem);
+  transition: all 1.8s;
+}
+.div-sidebar img {
+  transform: rotate(90deg);
+  transition: all 1s;
+}
+.div-sidebar:focus-within {
+  transform: translate(0rem);
+  transition: all 1s;
+}
+.div-sidebar:focus-within img {
   transform: rotate(-90deg);
   transition: all 1s;
 }
