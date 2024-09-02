@@ -4,33 +4,40 @@ header {
     text-align: center;
 }
 
+
 .main-or-navbar {
     display: flex;
 }
 
+div.gif {
+    background-color: green;
+    width: 60rem;
+}
+
+
 .div-navbar {
+    background-color: azure;
     display: flex;
     position: fixed;
     right: 0;
     align-items: center;
     height: 100%;
-    width: 50rem;
-    margin-right: 0%;
-    padding-right: 0%;
-}
+    width: 15rem;
+    transform: translate(12rem);
+    transition: all 1s;
 
-.navbar {
-    display: flex;
-    align-items: center;
-    border-style: none;
-    margin-right: 7rem;
+    img {
+        transform: rotate(90deg);
+        transition: all 1s;
+    }
 
-    ul {
-        list-style-type: none;
+    &:focus-within {
+        transform: translate(0rem);
+        transition: all 1s;
 
-        li {
-            margin-top: 5rem;
-            margin-bottom: 5rem;
+        img {
+            transform: rotate(-90deg);
+            transition: all 1s;
         }
     }
 }

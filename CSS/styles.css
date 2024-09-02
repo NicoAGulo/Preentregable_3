@@ -1,26 +1,15 @@
 .btn-navbar {
-  display: flex;
-  align-items: center;
-  background-color: rgba(74, 202, 245, 0.053);
+  background-color: azure;
   height: 100%;
-  width: 100%;
+  width: 20%;
+  text-align: center;
   border-style: none;
-  transform: translate(45rem);
-  transition: all 2s;
 }
 .btn-navbar img {
-  height: 3%;
+  height: 1rem;
   width: auto;
-  transform: rotate(180deg);
-  transition: all 1s;
-}
-.btn-navbar:focus {
-  transform: translate(30rem);
-  transition: all 1s;
-}
-.btn-navbar:focus img {
-  transform: rotate(0deg);
-  transition: all 1s;
+  margin: none;
+  padding: none;
 }
 
 header {
@@ -31,29 +20,33 @@ header {
   display: flex;
 }
 
+div.gif {
+  background-color: green;
+  width: 60rem;
+}
+
 .div-navbar {
+  background-color: azure;
   display: flex;
   position: fixed;
   right: 0;
   align-items: center;
   height: 100%;
-  width: 50rem;
-  margin-right: 0%;
-  padding-right: 0%;
+  width: 15rem;
+  transform: translate(12rem);
+  transition: all 1s;
 }
-
-.navbar {
-  display: flex;
-  align-items: center;
-  border-style: none;
-  margin-right: 7rem;
+.div-navbar img {
+  transform: rotate(90deg);
+  transition: all 1s;
 }
-.navbar ul {
-  list-style-type: none;
+.div-navbar:focus-within {
+  transform: translate(0rem);
+  transition: all 1s;
 }
-.navbar ul li {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.div-navbar:focus-within img {
+  transform: rotate(-90deg);
+  transition: all 1s;
 }
 
 /*# sourceMappingURL=styles.css.map */
