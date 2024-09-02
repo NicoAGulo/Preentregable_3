@@ -9,9 +9,9 @@ h2 {
 header {
     position: sticky;
     text-align: center;
-    background-image: url(/IMG/Otros/waves-2.gif);
+    background-image: url(/IMG/Otros/sup-madera1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 1%;
     height: 12vh;
 }
 
@@ -102,4 +102,17 @@ header {
             transition: all 1s;
         }
     }
+}
+
+footer {
+    display: block;
+    position: absolute;
+    height: 5vh;
+    width: 100%;
+    bottom: 0;
+    background-image: url(/IMG/Otros/sup-madera1.jpg);
+    background-repeat: repeat-x;
+    background-position: 12%;
+    text-align: center;
+
 }
