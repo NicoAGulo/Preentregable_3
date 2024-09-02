@@ -1,5 +1,6 @@
 .btn-navbar {
-  background-color: azure;
+  background-image: url(../IMG/Otros/sup-madera1.jpg);
+  background-color: none;
   height: 100%;
   width: 20%;
   text-align: center;
@@ -20,13 +21,19 @@ header {
   display: flex;
 }
 
-div.gif {
-  background-color: green;
-  width: 60rem;
+.div-gif {
+  position: absolute;
+  height: 50rem;
+}
+.div-gif .gif-olas {
+  width: 50vh;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 25%;
 }
 
 .div-navbar {
-  background-color: azure;
+  background-image: url(../IMG/Otros/sup-madera1.jpg);
   display: flex;
   position: fixed;
   right: 0;
@@ -34,7 +41,7 @@ div.gif {
   height: 100%;
   width: 15rem;
   transform: translate(12rem);
-  transition: all 1s;
+  transition: all 1.8s;
 }
 .div-navbar img {
   transform: rotate(90deg);

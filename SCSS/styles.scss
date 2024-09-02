@@ -9,14 +9,21 @@ header {
     display: flex;
 }
 
-div.gif {
-    background-color: green;
-    width: 60rem;
+.div-gif {
+    position: absolute;
+    height: 50rem;
+
+    .gif-olas {
+        width: 50vh;
+        object-fit: contain;
+        filter: grayscale(100%);
+        opacity: 25%;
+    }
 }
 
 
 .div-navbar {
-    background-color: azure;
+    background-image: url(../IMG/Otros/sup-madera1.jpg);
     display: flex;
     position: fixed;
     right: 0;
@@ -24,7 +31,7 @@ div.gif {
     height: 100%;
     width: 15rem;
     transform: translate(12rem);
-    transition: all 1s;
+    transition: all 1.8s;
 
     img {
         transform: rotate(90deg);
