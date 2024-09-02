@@ -1,12 +1,22 @@
+@import "_mixins";
 @import "_buttons";
+@import "_navbar";
+@import "_sidebar";
+
+
 
 h1,
 h2 {
     margin-bottom: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 header {
+    z-index: 10;
     position: sticky;
     text-align: center;
     background-image: url(/IMG/Otros/sup-madera1.jpg);
@@ -21,88 +31,44 @@ header {
 }
 
 .frase-galeano {
+    justify-content: center;
     top: 8rem;
     position: fixed;
-    width: 85%;
+    width: 100%;
     text-align: center;
 
     h3 {
         justify-content: center;
-        font-size: medium;
+        font-size: small;
         margin: 1rem;
-
     }
 }
 
-.div-mirror {
+.div-waves {
     position: fixed;
-    top: 13rem;
+    top: 4rem;
     text-align: center;
 
-    .mirror {
-        width: 40vh;
-
-        &:hover {
-            transform: rotateY(180deg);
-        }
+    .waves {
+        height: 40rem;
+        filter: grayscale(100%);
+        opacity: 25%;
     }
 }
 
-
-.div-navbar {
-    background-image: url(../IMG/Otros/sup-madera1.jpg);
-    display: flex;
+.div-logo {
     position: fixed;
-    right: 0;
-    align-items: center;
-    height: 100%;
-    width: 15rem;
-    transform: translate(12rem);
-    transition: all 1.8s;
+    text-align: center;
+    width: 100%;
+    bottom: 10rem;
 
-    img {
-        transform: rotate(90deg);
-        transition: all 1s;
-    }
+    .logo {
+        height: 35vh;
 
-    &:focus-within {
-        transform: translate(0rem);
-        transition: all 1s;
-
-        img {
-            transform: rotate(-90deg);
-            transition: all 1s;
-        }
+        //hover + keyframes para ganar mas vida al logo
     }
 }
 
-.div-sidebar {
-    background-image: url(../IMG/Otros/sup-madera1.jpg);
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    left: 0;
-    align-items: center;
-    height: 100%;
-    width: 15rem;
-    transform: translate(-12rem);
-    transition: all 1.8s;
-
-    img {
-        transform: rotate(90deg);
-        transition: all 1s;
-    }
-
-    &:focus-within {
-        transform: translate(0rem);
-        transition: all 1s;
-
-        img {
-            transform: rotate(-90deg);
-            transition: all 1s;
-        }
-    }
-}
 
 footer {
     display: block;
@@ -114,5 +80,4 @@ footer {
     background-repeat: repeat-x;
     background-position: 12%;
     text-align: center;
-
 }

@@ -26,48 +26,6 @@
   padding: none;
 }
 
-h1,
-h2 {
-  margin-bottom: 0;
-}
-
-header {
-  position: sticky;
-  text-align: center;
-  background-image: url(/IMG/Otros/sup-madera1.jpg);
-  background-repeat: no-repeat;
-  background-position: 1%;
-  height: 12vh;
-}
-
-.main-or-navbar {
-  display: flex;
-}
-
-.frase-galeano {
-  top: 8rem;
-  position: fixed;
-  width: 85%;
-  text-align: center;
-}
-.frase-galeano h3 {
-  justify-content: center;
-  font-size: medium;
-  margin: 1rem;
-}
-
-.div-mirror {
-  position: fixed;
-  top: 13rem;
-  text-align: center;
-}
-.div-mirror .mirror {
-  width: 40vh;
-}
-.div-mirror .mirror:hover {
-  transform: rotateY(180deg);
-}
-
 .div-navbar {
   background-image: url(../IMG/Otros/sup-madera1.jpg);
   display: flex;
@@ -90,6 +48,14 @@ header {
 .div-navbar:focus-within img {
   transform: rotate(-90deg);
   transition: all 1s;
+}
+.div-navbar ul {
+  list-style-type: none;
+  align-items: center;
+}
+.div-navbar ul li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .div-sidebar {
@@ -115,6 +81,72 @@ header {
 .div-sidebar:focus-within img {
   transform: rotate(-90deg);
   transition: all 1s;
+}
+.div-sidebar ul {
+  list-style-type: none;
+  align-items: center;
+}
+.div-sidebar ul li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  z-index: 10;
+  position: sticky;
+  text-align: center;
+  background-image: url(/IMG/Otros/sup-madera1.jpg);
+  background-repeat: no-repeat;
+  background-position: 1%;
+  height: 12vh;
+}
+
+.main-or-navbar {
+  display: flex;
+}
+
+.frase-galeano {
+  justify-content: center;
+  top: 8rem;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+.frase-galeano h3 {
+  justify-content: center;
+  font-size: small;
+  margin: 1rem;
+}
+
+.div-waves {
+  position: fixed;
+  top: 4rem;
+  text-align: center;
+}
+.div-waves .waves {
+  height: 40rem;
+  filter: grayscale(100%);
+  opacity: 25%;
+}
+
+.div-logo {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 10rem;
+}
+.div-logo .logo {
+  height: 35vh;
 }
 
 footer {

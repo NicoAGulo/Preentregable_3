@@ -1,0 +1,17 @@
+@mixin list {
+    list-style-type: none;
+    align-items: center;
+}
+
+@mixin item-list {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@mixin oculto {
+    display: none;
+}
+
+@mixin activo {
+    display: block;
+}
