@@ -13,23 +13,46 @@
   padding: none;
 }
 
+h1,
+h2 {
+  margin-bottom: 0;
+}
+
 header {
+  position: sticky;
   text-align: center;
+  background-image: url(/IMG/Otros/waves-2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10vh;
 }
 
 .main-or-navbar {
   display: flex;
 }
 
-.div-gif {
-  position: absolute;
-  height: 50rem;
+.frase-galeano {
+  top: 8rem;
+  position: fixed;
+  width: 85%;
+  text-align: center;
 }
-.div-gif .gif-olas {
-  width: 50vh;
-  object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 25%;
+.frase-galeano h3 {
+  justify-content: center;
+  font-size: medium;
+  margin: 1rem;
+}
+
+.div-mirror {
+  position: fixed;
+  top: 13rem;
+  text-align: center;
+}
+.div-mirror .mirror {
+  width: 40vh;
+}
+.div-mirror .mirror:hover {
+  transform: rotateY(180deg);
 }
 
 .div-navbar {
