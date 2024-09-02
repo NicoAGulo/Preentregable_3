@@ -12,6 +12,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/CSS/styles.css">
+    <script src="/JS/script.js" defer></script>
 
 </head>
 
@@ -25,16 +26,43 @@
     </header>
 
     <main>
-
         <div class="div-waves"><img class="waves" src="/IMG/Otros/waves-2.gif" alt="waves">
         </div>
 
-        <div class="div-logo"><img class="logo" src="/IMG/Iconos/mirror.png" alt="mirror"></div>
 
-        <section class="frase-galeano">
-            <h3>"El arte no imita la vida, la revela"</h3>
-            <h3>Eduardo Galeano</h3>
+        <section id="sidebar-australix" class="sidebar-australix">
+            <div class="div-logo"><img class="logo" src="/IMG/Iconos/mirror.png" alt="mirror"></div>
+            <section class="frase-galeano">
+                <h3>"El arte no imita la vida, la revela"</h3>
+                <h3>Eduardo Galeano</h3>
+            </section>
         </section>
+
+
+        <section id="sidebar-que" class="sidebar-que">
+            <div class="div-logo"><img class="logo" src="/IMG/Iconos/mirror.png" alt="mirror"></div>
+            <section class="frase-galeano">
+                <h3>"QUE"</h3>
+            </section>
+        </section>
+
+
+        <section id="sidebar-por-que" class="sidebar-por-que">
+            <div class="div-logo"><img class="logo" src="/IMG/Iconos/mirror.png" alt="mirror"></div>
+            <section class="frase-galeano">
+                <h3>"POR QUE"</h3>
+            </section>
+        </section>
+
+
+        <section id="sidebar-como" class="sidebar-como">
+            <div class="div-logo"><img class="logo" src="/IMG/Iconos/mirror.png" alt="mirror"></div>
+            <section class="frase-galeano">
+                <h3>"COMO"</h3>
+            </section>
+        </section>
+
+
 
         <section class="main-or-navbar">
             <div class="div-navbar"><button type="button" class="btn-navbar"><img src="/IMG/Iconos/arrow.png"
@@ -54,17 +82,16 @@
             <div class="div-sidebar">
 
                 <nav class="sidebar">
-                    <ul class="lista-sidebar">
-                        <li><a href="#" onclick="guia">Australix</a></li>
-                        <li><a href="#" onclick="que">¿Que es?</a></li>
-                        <li><a href="#" onclick="por-que">¿Por que?</a></li>
-                        <li><a href="#" onclick="como">¿Como?</a></li>
+                    <ul id="lista-sidebar">
+                        <li><button type="button" id="link-sidebar-australix">Australix</button></li>
+                        <li><button type="button" id="link-sidebar-que">¿Que es?</button></li>
+                        <li><button type="button" id="link-sidebar-por-que">¿Por que?</button></li>
+                        <li><button type="button" id="link-sidebar-como">¿Como?</button></li>
                     </ul>
                 </nav>
 
                 <button type="button" class="btn-sidebar"><img src="/IMG/Iconos/arrow.png" alt="arrow"></button>
             </div>
-
 
 
         </section>
