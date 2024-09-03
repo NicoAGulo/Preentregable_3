@@ -10,7 +10,6 @@ function australixClicked() {
     document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
     const sidebarAustralix = document.getElementById('sidebar-australix')
     sidebarAustralix.style.display = "block";
-
 }
 
 
@@ -104,4 +103,34 @@ function circoClicked() {
 
     const sidebarCirco = document.getElementById('sidebar-circo');
     sidebarCirco.style.display = "block";
+}
+
+//ESPACIOS
+
+var salaTeatroElement = document.getElementById('link-sidebar-sala-teatro')
+
+if (salaTeatroElement) {
+    salaTeatroElement.addEventListener('click', salaTeatroClicked)
+}
+
+function salaTeatroClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarSalaTeatro = document.getElementById('sidebar-sala-teatro');
+    sidebarSalaTeatro.style.display = "block";
+}
+
+
+
+var salaDanzaElement = document.getElementById('link-sidebar-sala-danza')
+
+if (salaDanzaElement) {
+    salaDanzaElement.addEventListener('click', salaDanzaClicked)
+}
+
+function salaDanzaClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarSalaDanza = document.getElementById('sidebar-sala-danza');
+    sidebarSalaDanza.style.display = "block";
 }

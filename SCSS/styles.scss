@@ -42,7 +42,8 @@ header {
 }
 
 .contenido-sidebar {
-    top: 20vh;
+    top: 11vh;
+    height: 50%;
     position: absolute;
     display: block;
     text-align: center;
@@ -57,10 +58,11 @@ header {
     }
 
     p {
-        height: 50%;
+        display: block;
+        font-size: smaller;
         margin: 1rem;
-        margin-right: 5rem;
-        margin-left: 5rem;
+        margin-right: 3.5rem;
+        margin-left: 3.5rem;
         text-align: center;
         justify-content: center;
         box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643),
@@ -98,6 +100,19 @@ header {
     }
 }
 
+.div-espacio {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 15vh;
+    justify-content: center;
+
+    img {
+        width: 60%;
+        box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643),
+            -2px -2px 5px rgba(134, 134, 134, 0.422);
+    }
+}
 
 footer {
     display: flex;

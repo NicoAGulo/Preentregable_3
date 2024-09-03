@@ -123,6 +123,14 @@
   display: none;
 }
 
+.sidebar-sala-teatro {
+  display: none;
+}
+
+.sidebar-sala-danza {
+  display: none;
+}
+
 h1 {
   font-family: "Medula One", system-ui;
   font-weight: 600;
@@ -208,7 +216,8 @@ header {
 }
 
 .contenido-sidebar {
-  top: 20vh;
+  top: 11vh;
+  height: 50%;
   position: absolute;
   display: block;
   text-align: center;
@@ -222,10 +231,11 @@ header {
   justify-content: center;
 }
 .contenido-sidebar p {
-  height: 50%;
+  display: block;
+  font-size: smaller;
   margin: 1rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin-right: 3.5rem;
+  margin-left: 3.5rem;
   text-align: center;
   justify-content: center;
   box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643), -2px -2px 5px rgba(134, 134, 134, 0.422);
@@ -254,6 +264,18 @@ header {
 }
 .div-logo .logo {
   height: 35vh;
+}
+
+.div-espacio {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 15vh;
+  justify-content: center;
+}
+.div-espacio img {
+  width: 60%;
+  box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643), -2px -2px 5px rgba(134, 134, 134, 0.422);
 }
 
 footer {
