@@ -96,7 +96,7 @@ header {
     .logo {
         height: 35vh;
 
-        //hover + keyframes para ganar mas vida al logo
+        //hover + keyframes para darle mas vida al logo
     }
 }
 
@@ -109,6 +109,24 @@ header {
 
     img {
         width: 60%;
+        box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643),
+            -2px -2px 5px rgba(134, 134, 134, 0.422);
+    }
+}
+
+.div-foto-profe {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+
+
+    img {
+        display: block;
+        padding: 2px;
+        width: 30%;
         box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643),
             -2px -2px 5px rgba(134, 134, 134, 0.422);
     }
