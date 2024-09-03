@@ -1,3 +1,5 @@
+//INDEX
+
 var australixElement = document.getElementById('link-sidebar-australix')
 australixElement.addEventListener('click', australixClicked)
 
@@ -32,4 +34,16 @@ function comoClicked() {
     document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
     const sidebarComo = document.getElementById('sidebar-como')
     sidebarComo.style.display = "block";
+}
+
+
+//CURSOS
+
+var teatroElement = document.getElementById('link-sidebar-teatro')
+teatroElement.addEventListener('click', teatroClicked)
+
+function teatroClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+    const sidebarTeatro = document.getElementById('sidebar-teatro')
+    sidebarTeatro.style.display = "block";
 }

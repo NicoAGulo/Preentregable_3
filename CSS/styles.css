@@ -92,7 +92,7 @@
 }
 
 .sidebar-australix {
-  display: block;
+  display: none;
 }
 
 .sidebar-que {
@@ -107,6 +107,73 @@
   display: none;
 }
 
+.sidebar-teatro {
+  display: block;
+}
+
+.sidebar-danza {
+  display: none;
+}
+
+.sidebar-tela {
+  display: none;
+}
+
+.sidebar-circo {
+  display: none;
+}
+
+h1 {
+  font-family: "Medula One", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Medula One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Medula One", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+  font-size: large;
+  font-family: "Medula One", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+button {
+  font-family: "Flamenco", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-family: "Flamenco", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+label {
+  font-family: "Flamenco", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@keyframes acercarContenido {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 h1,
 h2 {
   margin-bottom: 0;
@@ -141,11 +208,13 @@ header {
 }
 
 .contenido-sidebar {
+  top: 20vh;
   position: absolute;
   display: block;
   text-align: center;
   justify-content: center;
   width: 100%;
+  animation: acercarContenido 1s ease-in-out;
 }
 .contenido-sidebar h3 {
   margin: 1rem;
@@ -159,6 +228,7 @@ header {
   margin-left: 5rem;
   text-align: center;
   justify-content: center;
+  box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643), -2px -2px 5px rgba(134, 134, 134, 0.422);
 }
 
 .div-waves {
@@ -187,7 +257,7 @@ header {
 }
 
 footer {
-  display: block;
+  display: flex;
   position: absolute;
   height: 5vh;
   width: 100%;
@@ -197,6 +267,11 @@ footer {
   background-position: 12%;
   text-align: center;
   align-items: center;
+}
+footer label {
+  font-weight: 800;
+  height: 50%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

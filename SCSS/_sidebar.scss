@@ -34,9 +34,10 @@
     }
 }
 
+//index
 
 .sidebar-australix {
-    display: block;
+    display: none;
 }
 
 .sidebar-que {
@@ -48,5 +49,25 @@
 }
 
 .sidebar-como {
+    display: none;
+}
+
+
+//cursos
+
+
+.sidebar-teatro {
+    display: block;
+}
+
+.sidebar-danza {
+    display: none;
+}
+
+.sidebar-tela {
+    display: none;
+}
+
+.sidebar-circo {
     display: none;
 }
