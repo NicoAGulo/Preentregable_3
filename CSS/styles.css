@@ -335,4 +335,11 @@ footer label {
   width: 100%;
 }
 
+.formulario {
+  width: 100%;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
