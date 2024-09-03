@@ -121,7 +121,6 @@ function salaTeatroClicked() {
 }
 
 
-
 var salaDanzaElement = document.getElementById('link-sidebar-sala-danza')
 
 if (salaDanzaElement) {
@@ -133,4 +132,88 @@ function salaDanzaClicked() {
 
     const sidebarSalaDanza = document.getElementById('sidebar-sala-danza');
     sidebarSalaDanza.style.display = "block";
+}
+
+//PROFES
+
+var profeRominaElement = document.getElementById('link-sidebar-profe-romina')
+
+if (profeRominaElement) {
+    profeRominaElement.addEventListener('click', profeRominaClicked)
+}
+
+function profeRominaClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarProfeRomina = document.getElementById('sidebar-profe-romina');
+    sidebarProfeRomina.style.display = "block";
+}
+
+var profeCarlosElement = document.getElementById('link-sidebar-profe-carlos')
+
+if (profeCarlosElement) {
+    profeCarlosElement.addEventListener('click', profeCarlosClicked)
+}
+
+function profeCarlosClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarProfeCarlos = document.getElementById('sidebar-profe-carlos');
+    sidebarProfeCarlos.style.display = "block";
+}
+
+
+var profeJennaElement = document.getElementById('link-sidebar-profe-jenna')
+
+if (profeJennaElement) {
+    profeJennaElement.addEventListener('click', profeJennaClicked)
+}
+
+function profeJennaClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarProfeJenna = document.getElementById('sidebar-profe-jenna');
+    sidebarProfeJenna.style.display = "block";
+}
+
+
+var profeClaudiaElement = document.getElementById('link-sidebar-profe-claudia')
+
+if (profeClaudiaElement) {
+    profeClaudiaElement.addEventListener('click', profeClaudiaClicked)
+}
+
+function profeClaudiaClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarProfeClaudia = document.getElementById('sidebar-profe-claudia');
+    sidebarProfeClaudia.style.display = "block";
+}
+
+
+var profeRaulElement = document.getElementById('link-sidebar-profe-raul')
+
+if (profeRaulElement) {
+    profeRaulElement.addEventListener('click', profeRaulClicked)
+}
+
+function profeRaulClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarProfeRaul = document.getElementById('sidebar-profe-raul');
+    sidebarProfeRaul.style.display = "block";
+}
+
+
+var profeMatiasElement = document.getElementById('link-sidebar-profe-matias')
+
+if (profeMatiasElement) {
+    profeMatiasElement.addEventListener('click', profeMatiasClicked)
+}
+
+function profeMatiasClicked() {
+    document.querySelectorAll('[id^="sidebar-"]').forEach(el => el.style.display = 'none');
+
+    const sidebarProfeMatias = document.getElementById('sidebar-profe-matias');
+    sidebarProfeMatias.style.display = "block";
 }
