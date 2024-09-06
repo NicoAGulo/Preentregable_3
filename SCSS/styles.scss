@@ -1,9 +1,9 @@
-@import "_mixins";
 @import "_buttons";
+@import "_keyframes";
+@import "_mixins";
 @import "_navbar";
 @import "_sidebar";
 @import "_typography";
-@import "_keyframes";
 
 
 
@@ -21,7 +21,7 @@ header {
     z-index: 10;
     position: sticky;
     text-align: center;
-    background-image: url(/IMG/Otros/sup-madera1.jpg);
+    background-image: url(../IMG/Otros/sup-madera1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 1%;
@@ -138,7 +138,7 @@ footer {
     height: 5vh;
     width: 100%;
     bottom: 0;
-    background-image: url(/IMG/Otros/sup-madera1.jpg);
+    background-image: url(../IMG/Otros/sup-madera1.jpg);
     background-repeat: repeat-x;
     background-position: 12%;
     text-align: center;
