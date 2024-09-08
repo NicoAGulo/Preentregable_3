@@ -1,10 +1,10 @@
+@import "_media";
 @import "_buttons";
 @import "_keyframes";
 @import "_mixins";
 @import "_navbar";
 @import "_sidebar";
 @import "_typography";
-
 
 
 h1,
@@ -43,7 +43,6 @@ header {
 
 .contenido-sidebar {
     top: 11vh;
-    height: 50%;
     position: absolute;
     display: block;
     text-align: center;
@@ -58,7 +57,6 @@ header {
     }
 
     p {
-        display: block;
         font-size: smaller;
         margin: 1rem;
         margin-right: 3.5rem;
@@ -115,16 +113,13 @@ header {
 }
 
 .div-foto-profe {
-    display: flex;
-    position: fixed;
-    text-align: center;
-    align-items: center;
+    display: grid;
+    position: absolute;
     justify-content: center;
-    top: 50%;
-
+    width: 100%;
+    top: 55%;
 
     img {
-        display: block;
         padding: 2px;
         width: 30%;
         box-shadow: 2px 2px 5px rgba(73, 73, 73, 0.643),
@@ -135,7 +130,7 @@ header {
 footer {
     display: flex;
     position: absolute;
-    height: 5vh;
+    height: 6vh;
     width: 100%;
     bottom: 0;
     background-image: url(../IMG/Otros/sup-madera1.jpg);
